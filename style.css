@@ -1,0 +1,406 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden; 
+}
+.top{
+  width: 50px;
+  height: 50px;
+  background-color: #286090;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  right: 10px;
+  bottom:15px;
+ 
+}
+#topb{
+  background-color: transparent;
+  border: none;
+}
+.top a{
+  color: white;
+}
+.top:hover{
+  background-color: grey;
+}
+.top:active{
+  background-color: blue;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(85, 77, 77);
+  font-size: 15px;
+  font-weight: 400 !important;
+}
+.navbar {
+  justify-content: space-between;
+  height: 100px;
+}
+.logo-container {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+.links-container {
+  flex: 0 0 60%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.btn-light:hover {
+  background-color: #286090;
+  color: white !important;
+}
+.aboutportion {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutpic {
+  width: 45%;
+  height: 80%;
+  background-image: url(about.avif);
+  background-size: cover;
+}
+.aboutcontent {
+  padding-left: 2%;
+  width: 45%;
+  height: 80%;
+}
+#readmore {
+  color: white;
+  background-color: rgb(29, 103, 164);
+  height: 40px;
+  width: 150px;
+  border: none;
+}
+#readmore:hover{
+  background-color: grey;
+}
+#readmore:active{
+  background-color: blue;
+}
+.services {
+  width: 100vw;
+  height: 33vh;
+  background-color: rgb(235, 241, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: grey;
+}
+.services p {
+  color: grey;
+}
+
+.servicesboxes {
+  display: grid;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(235, 241, 243);
+  padding: 30px 30px 30px 30px;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
+  grid-column-gap: 30px;
+  
+
+  justify-content: center;
+  align-items: center;
+}
+.s1 {
+  background-color: white;
+  padding: 25px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s2 {
+  background-color: white;
+  padding: 25px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s3 {
+  background-color: white;
+  padding: 25px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s4 {
+  background-color: white;
+  padding: 25px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s5 {
+  background-color: white;
+  padding: 25px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s6 {
+  background-color: white;
+  padding: 25px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.servicesboxes i {
+  color: #286090;
+  font-size: 25px;
+}
+.servicesboxes p {
+  line-height: 15px;
+}
+.servicesboxes .ser:hover {
+  background-color: rgb(217, 220, 224);
+}
+
+.counter {
+  width: 100%;
+  height: 60vh;
+  background-image: url(width.avif);
+  background-size: cover;
+  background-color: black;
+}
+.counterinside {
+  height: 100%;
+  width: 100%;
+  background-color: #00000099;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 700;
+}
+.count1 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.count2 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.count3 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.count4 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counterinside i {
+  font-size: 30px;
+}
+.counterinside text {
+  font-weight: normal;
+}
+
+.help {
+  width: 100%;
+  height: 33vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.help p {
+  color: grey;
+}
+.helpers {
+  display: flex;
+  justify-content: space-evenly;
+}
+.quote{
+  height: 50vh;
+  width: 100%;
+  background-image: url(qfinal.avif);
+  background-size: contain;
+}
+.back{
+  height: 100%;
+  width: 100%;
+ background-color: #000000bd;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.words {
+  width: 70%;
+  height: 30%;
+   color: white;
+}
+.author{
+  color: white;
+  width: 20%;
+  height: 20%;
+}
+.blog {
+  width: 100vw;
+  height: 33vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blog p {
+  color: grey;
+}
+.blogportion{
+  display: flex;
+  justify-content: space-evenly;
+   
+}
+.blogportion .end{
+  color: darkgray;
+}
+
+.domains{
+   width: 100%;
+   height: 40vh;
+   background-image: url(meet.avif);
+   background-size: contain;
+}
+.backdom{
+  width: 100%;
+  height: 100%;
+  background-color: #000000bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.courses a{
+  width: 15%;
+  height: 50%;
+}
+
+.details{
+  height: 75vh;
+  width: 100%;
+  background-color:  #000000de;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+.info{
+  height: 60%;
+  width: 30%;
+  color: white;
+}
+.info .logolast{
+  height: 25%;
+  width: 70%;
+  
+}
+.timing{
+  height: 60%;
+  width: 30%;
+  color: white;
+}
+.touch{
+  height: 60%;
+  width: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.timing h7{
+  font-weight: 700;
+}
+
+.touch h7{
+  font-weight: 700;
+}
+.touch #name{
+  background-color: transparent;
+  color: white;
+  width: 40%;
+  height: 33px;
+  border-color: white;
+  border-width: 1px;
+  
+}
+.touch #email{
+  background-color: transparent;
+  color: white;
+  width: 40%;
+  height: 33px;
+  border-color: white;
+  border-width: 1px;
+}
+.touch #area{
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 100px;
+  border-color: white;
+  border-width: 1px;
+}
+#btn1{
+  width: 50%;
+  height: 30px;
+  background-color: rgb(10, 198, 198);
+  color: white;
+  margin-left: 10%;
+  border: none;
+}
+.footer{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+#btn1:hover{
+  background-color: grey;
+}
+#btn1:active{
+  background-color: blue;
+}
